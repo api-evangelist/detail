@@ -1,8 +1,26 @@
 aid: detail
 name: Detail
-description: Detail is a company surfaced as a portfolio company of point-nine and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Detail is a video creation and editing app for iOS and macOS built by Detail
+  Technologies B.V., a Point Nine portfolio company. It combines multi-camera recording,
+  AI-powered auto-editing (silence removal, zoom cuts, captions, titles, and music), live
+  multi-platform streaming to YouTube, Twitch, Instagram, and LinkedIn, a built-in teleprompter,
+  green-screen background removal, and automatic captions, aimed at creators, podcasters, and
+  streamers producing polished video quickly. Detail won the 2025 App Store Award for iPad App
+  of the Year and was a 2026 Apple Design Award finalist. It is a consumer application and does
+  not currently publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/detail/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://framerusercontent.com/images/PY6SI6nAIvLSm0pvOzztSSuOE5Y.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Video
+- Video Editing
+- Live Streaming
+- Content Creation
+- Podcasting
+- Media
+- AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,26 @@ maintainers:
 common:
 - type: Website
   url: https://www.detail.co
+- type: Blog
+  url: https://www.detail.co/blog
+- type: Support
+  url: https://support.detail.co
+- type: GettingStarted
+  url: https://www.detail.co/academy
+- type: Pricing
+  url: https://www.detail.co/pricing
+- type: Login
+  url: https://accounts.detail.co
+- type: SignUp
+  url: https://www.detail.co/download-duo
+- type: TermsOfService
+  url: https://www.detail.co/terms
+- type: PrivacyPolicy
+  url: https://www.detail.co/privacy
+- type: DomainSecurity
+  url: security/detail-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
